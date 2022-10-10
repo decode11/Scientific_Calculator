@@ -84,12 +84,12 @@ tanb = Button(root, text="tan", padx=23, pady=10, relief=RAISED, bg="Black", fg=
 tanb.bind("<Button-1>", sc)
 
 
-sqrtm = Button(root, text="Sqrt", padx=23, pady=10, relief=RAISED, bg="Black", fg="White")
+sqrtm = Button(root, text="Sqrt", padx=24, pady=10, relief=RAISED, bg="Black", fg="White")
 sqrtm.bind("<Button-1>", sc)
-ac = Button(root, text="C", padx=29, pady=10, relief=RAISED, bg="Dark Red", fg="White",command=lambda: clear())
-bksp = Button(root, text="Bksp", padx=19, pady=10, relief=RAISED, bg="Dark Red", fg="White",command=lambda: bksps())
-mod = Button(root, text="mod", padx=19, pady=10, relief=RAISED, bg="Black", fg="White",command=lambda: click("%"))
-div = Button(root, text="/", padx=29, pady=10, relief=RAISED, bg="Black", fg="White",command=lambda: click("/"))
+ac = Button(root, text="C", padx=28, pady=10, relief=RAISED, bg="Dark Red", fg="White",command=lambda: clear())
+bksp = Button(root, text="Bksp", padx=18, pady=10, relief=RAISED, bg="Dark Red", fg="White",command=lambda: bksps())
+mod = Button(root, text="mod", padx=18, pady=10, relief=RAISED, bg="Black", fg="White",command=lambda: click("%"))
+div = Button(root, text="/", padx=28, pady=10, relief=RAISED, bg="Black", fg="White",command=lambda: click("/"))
 
 fact = Button(root, text="x!", padx=29, pady=10, relief=RAISED, bg="Black", fg="White")
 fact.bind("<Button-1>", sc)
