@@ -64,9 +64,9 @@ def evaluate():
 	e.delete(0, END)
 	e.insert(0, ans)
 
-lg = Button(root, text="lg", padx=27, pady=9, relief=RAISED, bg="Black", fg="White")
+lg = Button(root, text="lg", padx=27, pady=10, relief=RAISED, bg="Black", fg="White")
 lg.bind("<Button-1>", sc)
-ln = Button(root, text="ln", padx=27, pady=9, relief=RAISED, bg="Black", fg="White")
+ln = Button(root, text="ln", padx=27, pady=10, relief=RAISED, bg="Black", fg="White")
 ln.bind("<Button-1>", sc)
 par1st = Button(root, text="(", padx=29, pady=10, relief=RAISED, bg="Black", fg="White",command=lambda: click("("))
 par2nd = Button(root, text=")", padx=30, pady=10, relief=RAISED, bg="Black", fg="White",command=lambda: click(")"))
