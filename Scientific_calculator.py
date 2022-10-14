@@ -2,7 +2,7 @@ from tkinter import *
 import math as m
 root =Tk()
 root.title("Scientific Calculator")
-e = Entry(root, width=50, borderwidth=8, relief=RIDGE, fg="White", bg="Black")
+e = Entry(root, width=49, borderwidth=9, relief=RIDGE, fg="White", bg="Black")
 e.grid(row=0, column=0, columnspan=5, padx=10, pady=15)
 
 def click(to_print):
